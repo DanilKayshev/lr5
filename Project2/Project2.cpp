@@ -132,7 +132,7 @@ int main()
 	while (!glfwWindowShouldClose(window)) {
 		processInput(window);
 
-		glClearColor(1.0, 1.2, 1.2, 1);
+		glClearColor(1.0, 0.4, 0.1, 1.0);
 		glClear(GL_COLOR_BUFFER_BIT);
 
 		float timeValue = glfwGetTime();
